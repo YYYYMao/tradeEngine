@@ -43,5 +43,6 @@ PendingOrderMap 則紀錄目前還未被完成的 order
 
 PendingOrderMap 第一個 key 使用 type+price 可以快速的 match 同樣價位的 order 
 
-第二個 key 使用 timestamp 可以快速取得最小時間達成 FIFO 
+第二個 key 使用 timestamp 可以快速取得最小時間達成 FIFO
+
 將每次資料操作使用 lock 保護 達成 concurrent

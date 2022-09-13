@@ -2,7 +2,7 @@
 
 1. build and deploy
 
-docker build . -t exam 
+docker build . -t exam  
 docker run -p 8080:8080 -d exam
 
 2. api test
